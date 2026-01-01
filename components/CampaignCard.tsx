@@ -7,8 +7,8 @@ interface CampaignCardProps {
     title: string;
     description: string;
     imageUrl: string;
-    badge: string;
-    badgeColor: string;
+    badge?: string;
+    badgeColor?: string;
     raised: string;
     goal: string;
     percentage: number;
